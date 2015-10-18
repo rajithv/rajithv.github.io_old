@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.center-title{
+	text-align: center;
+}
+
+.intro-section {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    background: #eee;
+}
+
+.academics-section, .experience-section{
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+    padding-top: 50px;
+    background: #fff;
+    overflow:hidden;
+}
+
+.contact-section {
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
+    overflow:hidden;
+}
+
+.projects-section, .skills-section {
+    height: auto;
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    overflow:hidden;
+}
+
+/* Services */
+
+.services {
+    background: #7fbbda;
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.service-item {
+    margin-bottom: 15px;
+}
+
+i.service-icon {
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 56px;
+    width: 140px;
+    height: 140px;
+    line-height: 136px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul.social{
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+ul.social li{
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+}
